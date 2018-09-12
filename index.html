@@ -29,15 +29,36 @@
         <span class="author">François Staudt</span>
     </div>
     <div class="slides">
-        <section data-markdown># JUnit tests for microservices</section>
+        <section data-markdown># JUnit tests</section>
         <section>
             <section data-markdown>## Test configuration</section>
+            <section data-markdown="slides/configuration/test_configuration.md"></section>
+            <section data-markdown="slides/configuration/application_yml.md"></section>
+            <section data-markdown="slides/configuration/application_test_yml.md"></section>
         </section>
         <section>
             <section data-markdown>## Test strategy</section>
+            <section data-markdown="slides/strategy/top_down_approach.md"></section>
+            <section data-markdown="slides/strategy/top_down_benefits.md"></section>
+            <section data-markdown="slides/strategy/top_down_drawbacks.md"></section>
+            <section data-markdown="slides/strategy/unit_tests_vs_integration_tests.md"></section>
         </section>
         <section>
             <section data-markdown>## Tests libraries</section>
+            <section data-markdown="slides/libraries/assertj.md"></section>
+            <section data-markdown="slides/libraries/embedded_mongo.md"></section>
+            <section data-markdown="slides/libraries/embedded_kafka.md"></section>
+            <section data-markdown="slides/libraries/awaitility.md"></section>
+        </section>
+        <section>
+            <section data-markdown>## Best practices</section>
+            <section data-markdown="slides/best_practices/sooner_is_better.md"></section>
+            <section data-markdown="slides/best_practices/avoid_external_dependencies.md"></section>
+            <section data-markdown="slides/best_practices/split_production_and_test_code.md"></section>
+            <section data-markdown="slides/best_practices/check_code_coverage.md"></section>
+        </section>
+        <section>
+            <section data-markdown>## Thank you !</section>
         </section>
     </div>
 </div>
@@ -63,7 +84,8 @@
     });
 
     Reveal.configure({
-        slideNumber: true
+        slideNumber: true,
+        transition: 'convex'
     });
 </script>
 </body>
