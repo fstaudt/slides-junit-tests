@@ -1,3 +1,4 @@
+### separate file 'application-test.yml'
 src/test/resources/application-test.yml
 ``` yaml
 test:
@@ -12,4 +13,6 @@ public class ResourceTest {
 }
 ```
 
-<span style="color:red">!! file 'src/test/resources/application.yml' cause failure in some IDE.</span>
+<span style="color:red">!!!</span> don't duplicate file 'application.yml' in 'src/test/resources':
+  - not correctly handled by some IDE (Eclipse)
+  - need for duplicate configuration

@@ -1,7 +1,7 @@
 ### Embedded Kafka
 
 - No external Kafka required for JUnit tests
-- <span style="color:red">!! integration with AVRO schema registry to investigate</span>
+- <span style="color:red">!!!</span> integration with AVRO schema registry to investigate
 
 ``` groovy
 dependencies {

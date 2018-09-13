@@ -1,7 +1,7 @@
 ### Test configuration
 * single file 'application.yml' with several profiles:
-  - clear view on overloaded configuration for tests 
   - centralized configuration
+  - clear view on overloaded configuration for tests 
   - suitable for small configuration
 
 * separate file 'application-test.yml' in test resources:
